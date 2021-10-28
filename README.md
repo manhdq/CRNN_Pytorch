@@ -45,7 +45,7 @@ Visualize (optional)
 Start visdom sever for visualization. Please remove '--enable_vis' if visualization is not needed.
 
     # Run visdom server on port 8074
-    visdom -port 8074
+    visdom -port 8097
 
 Train a new model
 -----------------
