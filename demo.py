@@ -17,7 +17,7 @@ def main():
     if torch.cuda.is_available():
         model = model.cuda()
     print('loading pretrained model from %s' % model_path)
-    model.load_state_dict(torch.load(model_path))
+    model.load_state_dict(torch.load(model_path)['model_state'])
 
     converter = strLabelConverter(alphabet)
 
