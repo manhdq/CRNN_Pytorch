@@ -25,7 +25,7 @@ Expected output:
     
 Performance
 -----------
-A performance with very small synth dataset (~400mb) with no augmentation
+A performance with very small synth dataset (~400mb) with no augmentation, train from scratch
 ![](./datasets/noobPerformance.png)
 This is an acceptable result
 
